@@ -1,0 +1,28 @@
+
+/* main */
+
+.grid-item{
+    height: 643px;
+    width:  640px ;
+}
+
+.product-card button{
+margin-top: 342px;
+margin-left: 479px;
+
+}
+
+.product-card .card-text{
+    font-size: 44px;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .product-card button{
+        margin-top: 260px;
+        margin-left: 380px;
+        
+        }
+}

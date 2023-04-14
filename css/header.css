@@ -1,0 +1,81 @@
+.nav-item{
+    text-decoration: none;
+    list-style-type: none;
+}
+.sub-header{
+    height: 45px;
+} 
+.sub-header-content{
+    padding-left: 58px;
+    padding-top: 15px;
+    font-size: 12px;
+}
+.sub-header-phone{
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 12px;
+}
+.sub-header-hour{
+    padding-top: 15px;
+    font-size: 12px;
+}
+.sub-header-icon{
+    padding-top: 15px;
+    font-size: 12px;
+    margin-left: 593px;
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .sub-header-icon{
+        padding-top: 15px;
+        font-size: 12px;
+        margin-left: 464px;
+    }
+}
+.sub-header-icon i{
+    margin-left: 10px;
+}
+/* main nav */
+.main-header{
+    background-color: #fe5a1a;
+}
+.nav-icon-right .nav-item{
+    margin-right: 40px;
+}
+.navbar-brand{
+    padding-top: 26px;
+    margin-left: 49px;
+}
+
+.nav-category{
+    margin-left: 33px;
+}
+.carousel .carousel-indicators button {
+    width: 5px;
+   height: 5px;
+   border-radius: 100%;
+    margin-bottom: 122px;
+ }
+
+ .carousel-caption {
+    top: 304px;
+    bottom: auto;
+}
+.carousel-caption button{
+    margin-top: 50px;
+}
+.circle-btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.carousel-caption h3{
+    font-size: 60px;
+}
+
+.carousel-caption p{
+    font-size: 16px;
+}

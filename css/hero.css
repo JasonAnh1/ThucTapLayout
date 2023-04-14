@@ -1,0 +1,79 @@
+.hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://dlcdnwebimgs.asus.com/gain/9D99F2E7-F028-4987-A73F-138C20994440/fwebp");
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.hero-img div{
+   padding-top: 150px;
+   padding-left: 48px;
+}
+
+.sort-section{
+    height: 104px;
+}
+
+.sort-left{
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.up:hover,.down:hover{
+color: red;
+}
+.middle-text {
+    padding-top: 30px;
+    padding-left: 390px;
+}
+.select-right{
+    padding-top: 30px;
+    padding-left: 400px;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .middle-text {
+        padding-top: 30px;
+        padding-left: 300px;
+    }
+    .select-right{
+        padding-top: 30px;
+        padding-left: 300px;
+    }
+}
+
+.product-card{
+    display: none;
+}
+.card-img-top:hover +.product-card{
+    display: block;
+}
+.card-img-top:hover{
+     -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+.product-card .card-title{
+padding-top: 140px;
+color: #fe5a1a;
+font-size: 14px;
+font-weight: bold;
+}
+.product-card .card-content,.card-text{
+    font-weight: bold;
+}
+
+/* .card-img-top{
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+} */
+.card-list-icon{
+    margin-top: 40px;
+}
+.card-list-icon i:not(:first-child){
+  
+    margin-left:40px;
+}
