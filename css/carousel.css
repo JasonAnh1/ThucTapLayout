@@ -1,0 +1,27 @@
+.carousel .carousel-indicators button {
+    width: 5px;
+   height: 5px;
+   border-radius: 100%;
+    margin-bottom: 122px;
+ }
+
+ .carousel-caption {
+    top: 304px;
+    bottom: auto;
+}
+.carousel-caption button{
+    margin-top: 50px;
+}
+.circle-btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.carousel-caption h3{
+    font-size: 60px;
+}
+
+.carousel-caption p{
+    font-size: 16px;
+}
